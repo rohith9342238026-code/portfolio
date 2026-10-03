@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohith | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="topbar">
+    <div class="brand magnetic" data-float>R.</div>
+    <div class="status"><span></span> PORTFOLIO / 2026</div>
+    <button class="theme-btn magnetic" id="themeBtn" aria-label="Toggle theme">☼</button>
+  </header>
+
+  <main id="slides">
+    <!-- 01 -->
+    <section class="slide active" id="home">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h1 class="hero-title">
+            <span data-float>ROHITH</span>
+            <span class="outline" data-float>DEVELOPER</span>
+          </h1>
+          <p class="intro" data-float>
+            BE Computer Science & Engineering student building clean,
+            useful and modern digital experiences.
+          </p>
+          <div class="hero-actions">
+            <button class="glass-btn magnetic" data-go="2">Explore work <b>↗</b></button>
+            <a class="text-link magnetic" href="#contact" data-go="4">Let's connect</a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap glass">
+           Replace this with your photo:
+              <img src="profile.jpg" alt="Rohith"> 
+          <div class="photo-placeholder">
+            <div class="initial">R</div>
+            <p>YOUR PHOTO</p>
+            <small>Add <b>profile.jpg</b> here</small>
+          </div>
+          <div class="photo-tag">CSE / STUDENT</div>
+        </div>
+      </div>
+      <div class="scroll-note">SCROLL / DRAG <span>↓</span></div>
+    </section>
+
+    <!-- 02 -->
+    <section class="slide" id="education">
+      <div class="section-head">
+        <p class="eyebrow">02 / EDUCATION</p>
+        <h2 data-float>LEARNING<br><span>IN PROGRESS.</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="edu-card glass magnetic" data-float>
+          <span class="year">2024 — PRESENT</span>
+          <div>
+            <h3>BE Computer Science & Engineering</h3>
+            <p>Engineering College · Tamil Nadu</p>
+            <small>Building foundations in software, algorithms and development.</small>
+          </div>
+          <strong>01</strong>
+        </article>
+        <article class="edu-card glass magnetic" data-float>
+          <span class="year">HIGHER SECONDARY</span>
+          <div>
+            <h3>Higher Secondary Education</h3>
+            <p>School Education</p>
+            <small>Science / Computer Science background.</small>
+          </div>
+          <strong>02</strong>
+        </article>
+        <article class="edu-card glass magnetic" data-float>
+          <span class="year">FOUNDATION</span>
+          <div>
+            <h3>Secondary Education</h3>
+            <p>School Education</p>
+            <small>Curiosity started with technology and problem solving.</small>
+          </div>
+          <strong>03</strong>
+        </article>
+      </div>
+    </section>
+
+    <!-- 03 -->
+    <section class="slide" id="work">
+      <div class="section-head split">
+        <div>
+          <p class="eyebrow">03 / SKILLS + PROJECTS</p>
+          <h2 data-float>BUILD.<br><span>LEARN. REPEAT.</span></h2>
+        </div>
+        <div class="skills glass">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>Java</span><span>Python</span><span>SQL</span>
+          <span>Git</span><span>UI/UX</span>
+        </div>
+      </div>
+
+      <div class="projects">
+        <article class="project glass magnetic" data-float>
+          <div class="project-no">01</div>
+          <h3>Student Portal</h3>
+          <p>Modern student dashboard and portal interface with responsive UI.</p>
+          <div class="stack">HTML · CSS · JS</div>
+          <span class="arrow">↗</span>
+        </article>
+        <article class="project glass magnetic" data-float>
+          <div class="project-no">02</div>
+          <h3>GIS Land Governance</h3>
+          <p>Integrated GIS concept for parcel data, records and land information.</p>
+          <div class="stack">React · GIS · APIs</div>
+          <span class="arrow">↗</span>
+        </article>
+        <article class="project glass magnetic" data-float>
+          <div class="project-no">03</div>
+          <h3>Campus Food Delivery</h3>
+          <p>Campus-focused food ordering and delivery experience.</p>
+          <div class="stack">Web · UI/UX · JS</div>
+          <span class="arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- 04 -->
+    <section class="slide" id="contact">
+      <div class="contact-layout">
+        <div>
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2 class="contact-title" data-float>LET'S<br><span>TALK.</span></h2>
+          <p class="contact-copy">Have a project, idea or collaboration in mind?</p>
+        </div>
+        <div class="contact-card glass">
+          <a class="contact-item magnetic" href="mailto:yourmail@example.com">
+            <span>EMAIL</span>
+            <b>rohith9342238026@gmail.com</b><i>↗</i>
+          </a>
+          <a class="contact-item magnetic" href="https://github.com/" target="_blank" rel="noreferrer">
+            <span>GITHUB</span>
+            <b>github.com/yourusername</b><i>↗</i>
+          </a>
+          <a class="contact-item magnetic" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <span>LINKEDIN</span>
+            <b>linkedin.com/in/yourusername</b><i>↗</i>
+          </a>
+        </div>
+      </div>
+      <footer>© 2026 ROHITH · DESIGNED & BUILT WITH CODE</footer>
+    </section>
+  </main>
+
+  <nav class="side-nav" aria-label="Slide navigation">
+    <button class="nav-dot active" data-go="1">01</button>
+    <button class="nav-dot" data-go="2">02</button>
+    <button class="nav-dot" data-go="3">03</button>
+    <button class="nav-dot" data-go="4">04</button>
+  </nav>
+
+  <div class="slide-count"><span id="current">01</span> / 04</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
